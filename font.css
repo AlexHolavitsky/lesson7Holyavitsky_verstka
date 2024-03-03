@@ -1,0 +1,16 @@
+@font-face {
+  font-family: "Roboto";
+  font-weight: 500;
+  src:local("Roboto"),/* ищем локально на компе*/
+  url("../fonts/Roboto-Medium.ttf") format("truetype");/*указываем ссылку и прописываем полное название формата*/
+  /*можно біло добавить еще один формат
+   url("../fonts/Roboto-Medium.woff") format("woff");
+   url("../fonts/Roboto-Medium.woff2") format("woff2");*/
+}
+
+@font-face {
+  font-family: "Roboto";
+  font-weight: 400;
+  src:local("Roboto"),
+  url("../fonts/Roboto-Regular.ttf") format("truetype"); 
+}
